@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap");
+* {
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: url("view.png");
+}
+.container {
+  display: flex;
+  align-items: start;
+  margin: 5px 0 0 0px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.search-input {
+  width: 100%-70px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #fff;
+  outline: none;
+  border-radius: 10px;
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 40px 0 42px;
+}
+.search input::placeholder {
+  color: #fff;
+  text-transform: capitalize;
+}
+.search i {
+  font-size: 25px;
+  position: absolute;
+  color: #5c59ab;
+  margin-left: 10px;
+}
+.bx {
+  font-size: 24px;
+  margin-right: 5px;
+}
+.bx-search {
+  margin: 15px;
+  width: 60px;
+  height: 55px;
+  font-size: 30px;
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  background: #d9d6f16c;
+  color: #5c59ab;
+}
+.bx-search:hover {
+  background-color: #8fbdeb37;
+}
+.bx-trash {
+  width: 60px;
+  height: 55px;
+  font-size: 30px;
+  border: 2px solid #ececec;
+  border-radius: 15px;
+  background: #f5cfcf4d;
+  color: #dd3838;
+  margin-left: 7px;
+}
+.bx-trash:hover {
+  background-color: #e6939b48;
+}
+.histo_btn {
+  width: 130px;
+  height: 40px;
+  margin-left: 10px;
+  font-size: 15px;
+  border: 0.5px solid #e7e7f3;
+  border-radius: 15px;
+  text-transform: uppercase;
+  background: transparent;
+  color: #5c59ab;
+}
+.country {
+  margin: 10px;
+  padding: 10px 4rem 0;
+  margin-left: 20rem;
+  border: 3px solid #d3d6e0; /* เส้นขอบ */
+  border-radius: 20px;
+  background: rgba(249, 248, 255, 0.179);
+  backdrop-filter: blur(10px);
+}
+.country_img {
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  filter: drop-shadow(10px 5px 9px rgb(48, 48, 65));
+}
+.country_img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+}
+.country_data {
+  margin: 4px;
+  font-size: 18px;
+  color: #fff;
+}
+.country_name {
+  margin: 8px;
+  color: rgb(52, 58, 109);
+  font-size: 40px; /* ขนาดตัวอักษร */
+}
+.country_region {
+  margin: 3px;
+}
+.weather__card {
+  margin: 10px;
+  padding: 30px 7rem 0;
+  border: 3px solid #d3d6e0;
+  border-radius: 20px;
+  background: rgba(249, 248, 255, 0.179);
+  backdrop-filter: blur(10px);
+}
+.weather_icon {
+  filter: drop-shadow(10px 5px 9px rgb(48, 48, 65));
+  width: 213px;
+  height: auto;
+}
+.weather_row {
+  font-size: 20px;
+  color: #fff;
+}
+.content-footer {
+  width: 97%;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+.forecast {
+  width: 500px;
+  color: #ffffff;
+  border: 3px solid #d3d6e0;
+  border-radius: 15px;
+  margin-left: 40px;
+  text-align: center;
+}
+.content {
+  display: flex;
+}
